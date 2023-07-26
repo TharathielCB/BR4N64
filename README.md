@@ -1,5 +1,7 @@
 # Internal BlueRetro flex-PCB for Nintendo 64
 
+![](./doc/img/flex-pcb_3D_render.png)
+
 ### Table of Content
 
 - [Featureset](https://github.com/TharathielCB/BR4N64#featureset) 
@@ -47,6 +49,7 @@ You can connect a standard ftdi programmer to the pin header connector right bes
 **Please do not close the jumper JP2 if you are using a standard ftdi programmer!**
 You have to close the jumper JP2 to set the ESP in programming mode, if you want to use a USB-UART Bridge (eg. a CP2102) only with RX, TX, 3V3 and GND on it.
 The connection order of the pinheader is shown in the picture below:
+![](./doc/img/flex-pcb_pinout.png)
 
 Once you connected the ESP with your PC correctly you can follow the flashing guide on DarthClouds BlueRetro Github:
 Please read this section to update the firmware.
@@ -61,11 +64,13 @@ Remove the filter capacitors on the bottom side of the N64 to cut the powerline 
 - FIL3
 - FIL5
 - FIL7
-
 **If you want to let the ESP control the Power LED you have to remove the Resistor R31 aswell.**
+
+![](./doc/img/N64_bottom_marked.png)
 
 Cut the reset trace as shown in the following picture on the top side of the N64.
 
+![](./doc/img/N64_top_cut.png)
 
 ## Installation of the flex-PCB
 Once the PCB is fully assembled and programmed you can lay it on the N64 motherboard. It should perfectly fit with the power pins on the right side, with the controller pins on the lower side and with the reset pin on the left side.
@@ -73,6 +78,7 @@ Once the PCB is fully assembled and programmed you can lay it on the N64 motherb
 If everything is well aligned you should start with the powerpins on the right side following by the controller pins on the lower side and finish with the reset pin on the left side. Lastly, solder the reset pin on the extension arm. There is a solder pad at the beginning of this extension arm if you rip it of by accident.
 Once you finished this you can close the jumper JP1 for the power LED if you have removed its resistor R31 on the N64 motherboard.
 **Please do not close this jumper if you have not removed R31!**
+![](./doc/img/Flex-PCB_power-LED_jumper.png)
 
 Afterwards you can place one extra LED behind each controller port and wire them to the designated solder pads on the flex-PCB if you want to illuminate the ports aswell.
 This is it!
