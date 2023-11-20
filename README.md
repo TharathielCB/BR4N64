@@ -1,6 +1,6 @@
 # Internal BlueRetro Flex-PCB for Nintendo 64
 
-![](./doc/img/flex-pcb_3D_render.png)
+![](./doc/img/Flex-PCB_3D_render.png)
 
 ### Table of Content
 
