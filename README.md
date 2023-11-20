@@ -89,9 +89,9 @@ LED will be solid.
 ### Hardware
 There are two different versions of this flex PCB. They differs how to solder the ESP. If you want to use an assembly service you should use the "PCBA-Version", but if you want to solder the pcb by yourself you should use the "DIY-Version".\
 The DIY-Version has some vias below the ground plate of the ESP to get this properly soldered.\
-You can get the Gerber files, the BOM and position files for the assembly as well as the KiCAD files in its designated folders.
-- [PCBA](https://github.com/TharathielCB/BR4N64)
-- [DIY](https://github.com/TharathielCB/BR4N64)
+You can get the KiCAD files in its designated folders.
+- [PCBA](https://github.com/TharathielCB/BR4N64/PCB/PCBA)
+- [DIY](https://github.com/TharathielCB/BR4N64/PCB/DIY)
 
 ### Software
 You can connect a standard ftdi programmer to the pin header connector right beside the ESP.\
