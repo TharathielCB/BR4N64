@@ -20,15 +20,17 @@ This is an internal flex PCB based on [Darthclouds BlueRetro](https://github.com
 - **Internal flex-PCB**\
 It is soldered direct to the controller ports - no wires needed!
 - **Port detection via Current Trigger**\
-It detects if a physical controller is connected and disconnect the Bluetooth controller on this Port.
+It detects if a physical controller is connected and disconnect the Bluetooth controller on this Port
 - **Power detection**\
-It detects the current power state of the console.
+It detects the current power state of the console
 - **Parallel power relays**\
-You can turn the console on and off with the controller.
+You can turn the console on and off with the controller
 - **Reset Control**\
-You can reset the console via the controller and you can change the state of the ESP with the reset button, eg. Pairing mode or resetting the ESP config.
+You can reset the console with the controller and you can change the state of the ESP with the reset button, eg. Pairing mode or resetting the ESP config
+- **Virtual Mempak and Rumblepak support**\
+You can switch between a virtual Mempak and Rumblepak by pressing a button on the controller
 - **Optional power LED control**\
-The power LED of the console shows the current status of the ESP eg. Pairing mode.
+The power LED of the console shows the current status of the ESP eg. Pairing mode
 - **Optional port LEDs output via solder pads**\
 You can install LEDs to your controller ports and wire them to the pads to illuminate the ports and see the current controller status (eg. connected, disconnected, pairing)
 
