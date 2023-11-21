@@ -131,10 +131,14 @@ Once the PCB is fully assembled and programmed you can place it on the backside 
 
 If everything is well aligned you should start with the powerpins on the right side following by the controller pins on the lower side and finish with the reset pin on the left side. Lastly, solder the reset pin on the extension arm. There is a solder pad at the beginning of this extension arm if you rip it of by accident.\
 ![](./doc/img/Flex-PCB_installation_reset.jpg)
+
 If you want to use the the lower shield please isolate the contacts of the ESP and the capacitor below on the left side.
 ![](./doc/img/Flex-PCB_installation_shield.jpg)
 
-Once you finished this you can close the jumper JP1 for the power LED. There is no need of removing its resistor on the N64 motherboard.\
+When assembling the console, make sure that the extension arm with the relays is bent to the top. It could also be fixed with double-sided adhesive tape.
+![](./doc/img/Flex-PCB_installation_relais.jpg)
+
+To let the ESP control the power LED, jumper JP1 must be closed. The resistor on the N64 motherboard does not need to be removed.\
 ![](./doc/img/Flex-PCB_power-LED_jumper.png)
 
 Afterwards you can place one extra LED behind each controller port and wire them to the designated solder pads on the flex-PCB if you want to illuminate the ports aswell.\
